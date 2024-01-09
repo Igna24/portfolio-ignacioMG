@@ -23,9 +23,9 @@ export default function getDataFromAPI() {
       "Continuous learning",
     ],
     images: [
-      "./images/whats-netbook-003.jpg",
-      "./images/whats-netbook-001.jpg",
-      "./images/whats-netbook-002.jpg",
+      "./public/images/whats-netbook-003.jpg",
+      "./public/images/whats-netbook-001.jpg",
+      "./public/images/whats-netbook-002.jpg",
     ],
   };
 

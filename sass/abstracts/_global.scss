@@ -83,7 +83,7 @@ h6 {
   --color-white: #ffffff;
   --color-heading: #0a093d;
   --color-text: #656464;
-  --full-width: 1180px;
+  --full-width: 1170px;
 }
 
 body {
@@ -91,15 +91,43 @@ body {
   font-family: 'Inter', sans-serzif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+}
+
 a {
   text-decoration: none;
   color: var(--color-text);
 }
 
+.hide-text {
+  clip-path: circle(0);
+  width: 0;
+  display: inline-block;
+  height: 0;
+}
+
+h2.section__title {
+  font-size: 1.125rem;
+  color: var(--color-primary);
+}
+
+p.section__subtitle {
+  color: var(--color-heading);
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.33;
+  margin-bottom: 1rem;
+}
+
 .container {
   width: var(--full-width);
   margin: 0 auto;
-
 }
 
 .prime {
