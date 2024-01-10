@@ -206,17 +206,17 @@ export default function getDataFromAPI() {
     subtitle: "Latest Works",
     articles: [
       {
-        image: "./images/CETAV-2023.svg",
+        image: "./public/images/CETAV-2023.svg",
         title: "CETAV's official website.",
         link: "https://lalibertad-cetav.vercel.app/",
       },
       {
-        image: "./images/EVENTS-2023.svg",
+        image: "./public/images/EVENTS-2023.svg",
         title: "Search and schedule events project",
         link: "https://events-side.vercel.app/",
       },
       {
-        image: "./images/WILD-2023.svg",
+        image: "./public/images/WILD-2023.svg",
         title: "A hotel management application",
         link: "https://hotel-appv-3.vercel.app",
       },
@@ -230,9 +230,9 @@ export default function getDataFromAPI() {
     githubUsername: "@igna24",
     githubLink: "https://github.com/Igna24",
     contactMessage: "Hope to hear from you soon!",
-    logo: "./images/logo-invert.svg",
-    linkedinIcon: "./images/linkedin-icon.svg",
-    githubIcon: "./images/github-icon.svg",
+    logo: "./public/images/logo-invert.svg",
+    linkedinIcon: "./public/images/linkedin-icon.svg",
+    githubIcon: "./public/images/github-icon.svg",
   };
 
   return {
